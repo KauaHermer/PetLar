@@ -6,16 +6,14 @@ O **PetLar** é um aplicativo desenvolvido em **Flutter** com backend em **PHP**
 
 ## 📁 Estrutura do Projeto
 
+```ini
 PetLar/
 │
 ├── PetLar/ # Aplicativo Flutter
 │
 └── htdocs/
 └── petlar_api/ # Backend PHP
-
-yaml
-Copiar código
-
+```
 ---
 
 ## ⚙️ Configuração do Backend (PHP)
@@ -24,13 +22,9 @@ Copiar código
 2. Copie a pasta `petlar_api` para dentro de:
 C:\xampp\htdocs\
 
-css
-Copiar código
 3. O backend ficará acessível em:
 http://localhost/petlar_api/
 
-yaml
-Copiar código
 
 ---
 
