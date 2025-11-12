@@ -55,17 +55,14 @@ Salve o arquivo e reinicie o Apache no painel do XAMPP.
 Abra a pasta PetLar no terminal.
 
 Rode o comando:
-
-bash
-Copiar código
+```ini
 flutter pub get
+```
 Execute o aplicativo:
-
-bash
-Copiar código
+```ini
 flutter run
+```
 Para executar no navegador:
-
-bash
-Copiar código
+```ini
 flutter run -d chrome
+```
