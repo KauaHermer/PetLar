@@ -13,14 +13,24 @@ PetLar/
 └── htdocs/
 └── petlar_api/ # Backend PHP
 
+yaml
+Copiar código
+
+---
+
 ## ⚙️ Configuração do Backend (PHP)
 
 1. Instale o **XAMPP**.
 2. Copie a pasta `petlar_api` para dentro de:
 C:\xampp\htdocs\
 
+css
+Copiar código
 3. O backend ficará acessível em:
 http://localhost/petlar_api/
+
+yaml
+Copiar código
 
 ---
 
@@ -29,8 +39,12 @@ http://localhost/petlar_api/
 Abra o arquivo:
 C:\xampp\php\php.ini
 
+javascript
+Copiar código
+
 Cole ou habilite as seguintes linhas, removendo o ponto e vírgula `;` caso exista:
 
+```ini
 extension=pdo_pgsql
 extension=pgsql
 extension=fileinfo
@@ -40,11 +54,17 @@ Salve o arquivo e reinicie o Apache no painel do XAMPP.
 Abra a pasta PetLar no terminal.
 
 Rode o comando:
-flutter pub get
 
+bash
+Copiar código
+flutter pub get
 Execute o aplicativo:
+
+bash
+Copiar código
 flutter run
 Para executar no navegador:
-flutter run -d chrome
-yaml
+
+bash
 Copiar código
+flutter run -d chrome
