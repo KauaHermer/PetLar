@@ -48,6 +48,7 @@ Cole ou habilite as seguintes linhas, removendo o ponto e vírgula `;` caso exis
 extension=pdo_pgsql
 extension=pgsql
 extension=fileinfo
+```
 Salve o arquivo e reinicie o Apache no painel do XAMPP.
 
 📲 Configuração do Flutter
